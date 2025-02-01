@@ -1,0 +1,90 @@
+{
+  "sourceInterfaceId": "willibald.webshop.lieferadresse",
+  "sourceSystemId": "willibald.webshop",
+  "schema": "webshop",
+  "catalog": "Willibald",
+  "name": "lieferadresse",
+  "sourceAttributes": [
+    {
+      "name": "lieferadrid",
+      "isPk": true,
+      "isFk": false,
+      "position": 1,
+      "default": null,
+      "nullable": false,
+      "datatype": "INT",
+      "length": 0
+    },
+    {
+      "name": "kundeid",
+      "isPk": false,
+      "isFk": false,
+      "position": 2,
+      "default": null,
+      "nullable": false,
+      "datatype": "CHAR",
+      "length": 13
+    },
+    {
+      "name": "strasse",
+      "isPk": false,
+      "isFk": false,
+      "position": 3,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "hausnummer",
+      "isPk": false,
+      "isFk": false,
+      "position": 4,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 10
+    },
+    {
+      "name": "adresszusatz",
+      "isPk": false,
+      "isFk": false,
+      "position": 5,
+      "default": null,
+      "nullable": true,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "plz",
+      "isPk": false,
+      "isFk": false,
+      "position": 6,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 10
+    },
+    {
+      "name": "ort",
+      "isPk": false,
+      "isFk": false,
+      "position": 7,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "land",
+      "isPk": false,
+      "isFk": false,
+      "position": 8,
+      "default": null,
+      "nullable": true,
+      "datatype": "VARCHAR",
+      "length": 128
+    }
+  ],
+  "sourceAttributeRelations": []
+}

@@ -1,0 +1,30 @@
+{
+  "sourceInterfaceId": "willibald.webshop.ref_produkt_typ",
+  "sourceSystemId": "willibald.webshop",
+  "schema": "webshop",
+  "catalog": "Willibald",
+  "name": "ref_produkt_typ",
+  "sourceAttributes": [
+    {
+      "name": "typ",
+      "isPk": true,
+      "isFk": false,
+      "position": 1,
+      "default": null,
+      "nullable": false,
+      "datatype": "INT",
+      "length": 0
+    },
+    {
+      "name": "bezeichnung",
+      "isPk": false,
+      "isFk": false,
+      "position": 2,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    }
+  ],
+  "sourceAttributeRelations": []
+}

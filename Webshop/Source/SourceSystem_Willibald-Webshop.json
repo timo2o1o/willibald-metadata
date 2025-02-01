@@ -1,0 +1,8 @@
+{
+  "driver": "CSV",
+  "connectionString": "D:\\Temp\\Willibald-Webshop-Data",
+  "sourceSystemId": "willibald.webshop",
+  "server": "localhost",
+  "name": "Willibald-Webshop",
+  "version": ""
+}

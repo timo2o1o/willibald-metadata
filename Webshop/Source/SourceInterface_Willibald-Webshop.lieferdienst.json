@@ -1,0 +1,110 @@
+{
+  "sourceInterfaceId": "willibald.webshop.lieferdienst",
+  "sourceSystemId": "willibald.webshop",
+  "schema": "webshop",
+  "catalog": "Willibald",
+  "name": "lieferdienst",
+  "sourceAttributes": [
+    {
+      "name": "lieferdienstid",
+      "isPk": true,
+      "isFk": false,
+      "position": 1,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 30
+    },
+    {
+      "name": "name",
+      "isPk": false,
+      "isFk": false,
+      "position": 2,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "telefon",
+      "isPk": false,
+      "isFk": false,
+      "position": 3,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 20
+    },
+    {
+      "name": "fax",
+      "isPk": false,
+      "isFk": false,
+      "position": 4,
+      "default": null,
+      "nullable": true,
+      "datatype": "VARCHAR",
+      "length": 20
+    },
+    {
+      "name": "email",
+      "isPk": false,
+      "isFk": false,
+      "position": 5,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "strasse",
+      "isPk": false,
+      "isFk": false,
+      "position": 6,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "hausnummer",
+      "isPk": false,
+      "isFk": false,
+      "position": 7,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 10
+    },
+    {
+      "name": "plz",
+      "isPk": false,
+      "isFk": false,
+      "position": 8,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 10
+    },
+    {
+      "name": "ort",
+      "isPk": false,
+      "isFk": false,
+      "position": 9,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "land",
+      "isPk": false,
+      "isFk": false,
+      "position": 10,
+      "default": null,
+      "nullable": true,
+      "datatype": "VARCHAR",
+      "length": 128
+    }
+  ],
+  "sourceAttributeRelations": []
+}

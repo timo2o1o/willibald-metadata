@@ -1,0 +1,130 @@
+{
+  "sourceInterfaceId": "willibald.webshop.kunde",
+  "sourceSystemId": "willibald.webshop",
+  "schema": "webshop",
+  "catalog": "Willibald",
+  "name": "kunde",
+  "sourceAttributes": [
+    {
+      "name": "kundeid",
+      "isPk": true,
+      "isFk": false,
+      "position": 1,
+      "default": null,
+      "nullable": false,
+      "datatype": "CHAR",
+      "length": 13
+    },
+    {
+      "name": "vereinspartnerid",
+      "isPk": false,
+      "isFk": false,
+      "position": 2,
+      "default": null,
+      "nullable": true,
+      "datatype": "VARCHAR",
+      "length": 30
+    },
+    {
+      "name": "vorname",
+      "isPk": false,
+      "isFk": false,
+      "position": 3,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "name",
+      "isPk": false,
+      "isFk": false,
+      "position": 4,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "geschlecht",
+      "isPk": false,
+      "isFk": false,
+      "position": 5,
+      "default": null,
+      "nullable": true,
+      "datatype": "CHAR",
+      "length": 1
+    },
+    {
+      "name": "geburtsdatum",
+      "isPk": false,
+      "isFk": false,
+      "position": 6,
+      "default": null,
+      "nullable": false,
+      "datatype": "DATE",
+      "length": 0
+    },
+    {
+      "name": "telefon",
+      "isPk": false,
+      "isFk": false,
+      "position": 7,
+      "default": null,
+      "nullable": true,
+      "datatype": "VARCHAR",
+      "length": 20
+    },
+    {
+      "name": "mobil",
+      "isPk": false,
+      "isFk": false,
+      "position": 8,
+      "default": null,
+      "nullable": true,
+      "datatype": "VARCHAR",
+      "length": 20
+    },
+    {
+      "name": "email",
+      "isPk": false,
+      "isFk": false,
+      "position": 9,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    },
+    {
+      "name": "kreditkarte",
+      "isPk": false,
+      "isFk": false,
+      "position": 10,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 30
+    },
+    {
+      "name": "gueltigbis",
+      "isPk": false,
+      "isFk": false,
+      "position": 11,
+      "default": null,
+      "nullable": false,
+      "datatype": "CHAR",
+      "length": 5
+    },
+    {
+      "name": "kkfirma",
+      "isPk": false,
+      "isFk": false,
+      "position": 12,
+      "default": null,
+      "nullable": false,
+      "datatype": "VARCHAR",
+      "length": 128
+    }
+  ],
+  "sourceAttributeRelations": []
+}

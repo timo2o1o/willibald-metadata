@@ -9,41 +9,49 @@
       "name": "\"Anzahl Tage von\"",
       "isPk": true,
       "isFk": false,
-      "position": 1,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 255
+      "attributeProperties": {
+        "position": 1,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 255
+      }
     },
     {
       "name": "\"Anzahl Tage bis\"",
       "isPk": false,
       "isFk": false,
-      "position": 2,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 255
+      "attributeProperties": {
+        "position": 2,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 255
+      }
     },
     {
       "name": "bezeichnung",
       "isPk": false,
       "isFk": false,
-      "position": 3,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 255
+      "attributeProperties": {
+        "position": 3,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 255
+      }
     },
     {
       "name": "bewertung",
       "isPk": false,
       "isFk": false,
-      "position": 4,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 255
+      "attributeProperties": {
+        "position": 4,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 255
+      }
     }
   ],
   "sourceAttributeRelations": []

@@ -9,21 +9,25 @@
       "name": "typ",
       "isPk": true,
       "isFk": false,
-      "position": 1,
-      "default": null,
-      "nullable": false,
-      "datatype": "INT",
-      "length": 0
+      "attributeProperties": {
+        "position": 1,
+        "default": null,
+        "nullable": false,
+        "datatype": "INT",
+        "length": 0
+      }
     },
     {
       "name": "bezeichnung",
       "isPk": false,
       "isFk": false,
-      "position": 2,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 128
+      "attributeProperties": {
+        "position": 2,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 128
+      }
     }
   ],
   "sourceAttributeRelations": []

@@ -9,82 +9,98 @@
       "name": "produktid",
       "isPk": true,
       "isFk": false,
-      "position": 1,
-      "default": null,
-      "nullable": false,
-      "datatype": "INT",
-      "length": 0
+      "attributeProperties": {
+        "position": 1,
+        "default": null,
+        "nullable": false,
+        "datatype": "INT",
+        "length": 0
+      }
     },
     {
       "name": "katid",
       "isPk": false,
       "isFk": false,
-      "position": 2,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 50
+      "attributeProperties": {
+        "position": 2,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 50
+      }
     },
     {
       "name": "bezeichnung",
       "isPk": false,
       "isFk": false,
-      "position": 3,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 512
+      "attributeProperties": {
+        "position": 3,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 512
+      }
     },
     {
       "name": "umfang",
       "isPk": false,
       "isFk": false,
-      "position": 4,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 128
+      "attributeProperties": {
+        "position": 4,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 128
+      }
     },
     {
       "name": "typ",
       "isPk": false,
       "isFk": false,
-      "position": 5,
-      "default": null,
-      "nullable": false,
-      "datatype": "INT",
-      "length": 0
+      "attributeProperties": {
+        "position": 5,
+        "default": null,
+        "nullable": false,
+        "datatype": "INT",
+        "length": 0
+      }
     },
     {
       "name": "preis",
       "isPk": false,
       "isFk": false,
-      "position": 6,
-      "default": null,
-      "nullable": false,
-      "datatype": "NUMERIC",
-      "length": 5,
-      "precision": 2
+      "attributeProperties": {
+        "position": 6,
+        "default": null,
+        "nullable": false,
+        "datatype": "NUMERIC",
+        "length": 5,
+        "precision": 2
+      }
     },
     {
       "name": "pflanzort",
       "isPk": false,
       "isFk": false,
-      "position": 7,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 128
+      "attributeProperties": {
+        "position": 7,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 128
+      }
     },
     {
       "name": "pflanzabstand",
       "isPk": false,
       "isFk": false,
-      "position": 8,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 128
+      "attributeProperties": {
+        "position": 8,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 128
+      }
     }
   ],
   "sourceAttributeRelations": []

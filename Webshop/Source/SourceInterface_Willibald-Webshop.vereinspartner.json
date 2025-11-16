@@ -9,51 +9,61 @@
       "name": "vereinspartnerid",
       "isPk": true,
       "isFk": false,
-      "position": 1,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 30
+      "attributeProperties": {
+        "position": 1,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 30
+      }
     },
     {
       "name": "kundeidverein",
       "isPk": false,
       "isFk": false,
-      "position": 2,
-      "default": null,
-      "nullable": false,
-      "datatype": "CHAR",
-      "length": 13
+      "attributeProperties": {
+        "position": 2,
+        "default": null,
+        "nullable": false,
+        "datatype": "CHAR",
+        "length": 13
+      }
     },
     {
       "name": "rabatt1",
       "isPk": false,
       "isFk": false,
-      "position": 3,
-      "default": null,
-      "nullable": false,
-      "datatype": "INT",
-      "length": 0
+      "attributeProperties": {
+        "position": 3,
+        "default": null,
+        "nullable": false,
+        "datatype": "INT",
+        "length": 0
+      }
     },
     {
       "name": "rabatt2",
       "isPk": false,
       "isFk": false,
-      "position": 4,
-      "default": null,
-      "nullable": false,
-      "datatype": "INT",
-      "length": 0
+      "attributeProperties": {
+        "position": 4,
+        "default": null,
+        "nullable": false,
+        "datatype": "INT",
+        "length": 0
+      }
     },
     {
       "name": "rabatt3",
       "isPk": false,
       "isFk": false,
-      "position": 5,
-      "default": null,
-      "nullable": false,
-      "datatype": "INT",
-      "length": 0
+      "attributeProperties": {
+        "position": 5,
+        "default": null,
+        "nullable": false,
+        "datatype": "INT",
+        "length": 0
+      }
     }
   ],
   "sourceAttributeRelations": []

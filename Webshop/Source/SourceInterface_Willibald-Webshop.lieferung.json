@@ -9,51 +9,61 @@
       "name": "bestellungid",
       "isPk": true,
       "isFk": false,
-      "position": 1,
-      "default": null,
-      "nullable": false,
-      "datatype": "BIGINT",
-      "length": 0
+      "attributeProperties": {
+        "position": 1,
+        "default": null,
+        "nullable": false,
+        "datatype": "BIGINT",
+        "length": 0
+      }
     },
     {
       "name": "posid",
       "isPk": true,
       "isFk": false,
-      "position": 2,
-      "default": null,
-      "nullable": false,
-      "datatype": "BIGINT",
-      "length": 0
+      "attributeProperties": {
+        "position": 2,
+        "default": null,
+        "nullable": false,
+        "datatype": "BIGINT",
+        "length": 0
+      }
     },
     {
       "name": "lieferadrid",
       "isPk": true,
       "isFk": false,
-      "position": 3,
-      "default": null,
-      "nullable": false,
-      "datatype": "INT",
-      "length": 0
+      "attributeProperties": {
+        "position": 3,
+        "default": null,
+        "nullable": false,
+        "datatype": "INT",
+        "length": 0
+      }
     },
     {
       "name": "lieferdienstid",
       "isPk": true,
       "isFk": false,
-      "position": 4,
-      "default": null,
-      "nullable": false,
-      "datatype": "VARCHAR",
-      "length": 30
+      "attributeProperties": {
+        "position": 4,
+        "default": null,
+        "nullable": false,
+        "datatype": "VARCHAR",
+        "length": 30
+      }
     },
     {
       "name": "lieferdatum",
       "isPk": false,
       "isFk": false,
-      "position": 5,
-      "default": null,
-      "nullable": false,
-      "datatype": "DATE",
-      "length": 0
+      "attributeProperties": {
+        "position": 5,
+        "default": null,
+        "nullable": false,
+        "datatype": "DATE",
+        "length": 0
+      }
     }
   ],
   "sourceAttributeRelations": []

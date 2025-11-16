@@ -9,62 +9,74 @@
       "name": "bestellungid",
       "isPk": true,
       "isFk": false,
-      "position": 1,
-      "default": null,
-      "nullable": false,
-      "datatype": "BIGINT",
-      "length": 0
+      "attributeProperties": {
+        "position": 1,
+        "default": null,
+        "nullable": false,
+        "datatype": "BIGINT",
+        "length": 0
+      }
     },
     {
       "name": "kundeid",
       "isPk": false,
       "isFk": false,
-      "position": 2,
-      "default": null,
-      "nullable": false,
-      "datatype": "CHAR",
-      "length": 13
+      "attributeProperties": {
+        "position": 2,
+        "default": null,
+        "nullable": false,
+        "datatype": "CHAR",
+        "length": 13
+      }
     },
     {
       "name": "allglieferadrid",
       "isPk": false,
       "isFk": false,
-      "position": 3,
-      "default": null,
-      "nullable": false,
-      "datatype": "INT",
-      "length": 0
+      "attributeProperties": {
+        "position": 3,
+        "default": null,
+        "nullable": false,
+        "datatype": "INT",
+        "length": 0
+      }
     },
     {
       "name": "bestelldatum",
       "isPk": false,
       "isFk": false,
-      "position": 4,
-      "default": null,
-      "nullable": false,
-      "datatype": "DATE",
-      "length": 0
+      "attributeProperties": {
+        "position": 4,
+        "default": null,
+        "nullable": false,
+        "datatype": "DATE",
+        "length": 0
+      }
     },
     {
       "name": "wunschdatum",
       "isPk": false,
       "isFk": false,
-      "position": 5,
-      "default": null,
-      "nullable": false,
-      "datatype": "DATE",
-      "length": 0
+      "attributeProperties": {
+        "position": 5,
+        "default": null,
+        "nullable": false,
+        "datatype": "DATE",
+        "length": 0
+      }
     },
     {
       "name": "rabatt",
       "isPk": false,
       "isFk": false,
-      "position": 6,
-      "default": null,
-      "nullable": false,
-      "datatype": "NUMERIC",
-      "length": 5,
-      "precision": 2
+      "attributeProperties": {
+        "position": 6,
+        "default": null,
+        "nullable": false,
+        "datatype": "NUMERIC",
+        "length": 5,
+        "precision": 2
+      }
     }
   ],
   "sourceAttributeRelations": []

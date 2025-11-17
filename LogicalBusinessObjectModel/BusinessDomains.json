@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CustomerManagement",
+    "description": "Domain for managing customer data and interactions.",
+    "parentBusinessDomainId": null
+  },
+  {
+    "name": "OrderProcessing",
+    "description": "Domain for handling order workflows and processing.",
+    "parentBusinessDomainId": "CustomerManagement"
+  },
+  {
+    "name": "CustomerRelationsship",
+    "description": "Domain focused on customer relationship management and support.",
+    "parentBusinessDomainId": "CustomerManagement"
+  },
+  {
+    "name": "ProductManagement",
+    "description": "Domain for managing products and their categories.",
+    "parentBusinessDomainId": null
+  }
+]

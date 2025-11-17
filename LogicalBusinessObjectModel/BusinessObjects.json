@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Customer",
+    "businessDomainId": "CustomerRelationsship",
+    "keyParts": [
+      {
+        "name": "Customer_ID",
+        "keyProperties": {
+          "position": 1,
+          "default": null,
+          "nullable": false,
+          "datatype": "int",
+          "length": null,
+          "precision": null
+        }
+      }
+    ]
+  },
+  {
+    "name": "WebshopOrderItem",
+    "businessDomainId": "OrderProcessing",
+    "keyParts": [
+      {
+        "name": "WebshopOrder_ID",
+        "keyProperties": {
+          "position": 1,
+          "default": null,
+          "nullable": false,
+          "datatype": "int",
+          "length": null,
+          "precision": null
+        }
+      },
+      {
+        "name": "OrderItem_ID",
+        "keyProperties": {
+          "position": 2,
+          "default": null,
+          "nullable": false,
+          "datatype": "int",
+          "length": null,
+          "precision": null
+        }
+      }
+    ]
+  }
+]

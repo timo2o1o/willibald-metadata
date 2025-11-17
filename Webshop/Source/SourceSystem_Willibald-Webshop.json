@@ -3,5 +3,6 @@
   "connectionString": "D:\\Temp\\Willibald-Webshop-Data",
   "server": "localhost",
   "name": "willibald.webshop",
+  "shortName": "WS",
   "version": ""
 }

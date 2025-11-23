@@ -10,7 +10,7 @@
     "parentBusinessDomainId": "CustomerManagement"
   },
   {
-    "name": "CustomerRelationsship",
+    "name": "CustomerRelationship",
     "description": "Domain focused on customer relationship management and support.",
     "parentBusinessDomainId": "CustomerManagement"
   },

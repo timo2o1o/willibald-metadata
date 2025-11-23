@@ -1,7 +1,7 @@
 [
   {
     "name": "Customer",
-    "businessDomainId": "CustomerRelationsship",
+    "businessDomainId": "CustomerRelationship",
     "keyParts": [
       {
         "name": "Customer_ID",

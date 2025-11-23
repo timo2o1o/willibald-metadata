@@ -1,0 +1,40 @@
+[
+    {
+        "Name": "Default",
+        "BusinessObjectId": "CustomerRelationship.Customer",
+        "AttributeSetMappings": [
+            {
+                "OrderNo": 1,
+                "HistoryType": "None",
+                "Role": "BusinessKey",
+                "AttributeProperties": {
+                    "Position": 1,
+                    "Default": null,
+                    "Nullable": false,
+                    "Datatype": "int",
+                    "Length": null,
+                    "Precision": null
+                },
+                "SourceInterfaceId": "willibald.webshop.kunde",
+                "SourceAttributeName": "kundeid",
+                "BusinessObjectKeyPartId": "CustomerRelationship.Customer.Customer_ID"
+            },
+            {
+                "OrderNo": 2,
+                "HistoryType": "None",
+                "Role": "BusinessKey",
+                "AttributeProperties": {
+                    "Position": 2,
+                    "Default": null,
+                    "Nullable": false,
+                    "Datatype": "int",
+                    "Length": null,
+                    "Precision": null
+                },
+                "SourceInterfaceId": "willibald.webshop.kunde",
+                "SourceAttributeName": "vereinspartnerid",
+                "BusinessObjectKeyPartId": null
+            }
+        ]
+    }
+]

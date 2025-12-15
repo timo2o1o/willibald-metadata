@@ -12,7 +12,7 @@
       "attributeProperties": {
         "position": 1,
         "default": null,
-        "nullable": false,
+        "isNullable": false,
         "datatype": "VARCHAR",
         "length": 50
       }
@@ -24,7 +24,7 @@
       "attributeProperties": {
         "position": 2,
         "default": null,
-        "nullable": true,
+        "isNullable": true,
         "datatype": "VARCHAR",
         "length": 50
       }
@@ -36,7 +36,7 @@
       "attributeProperties": {
         "position": 3,
         "default": null,
-        "nullable": false,
+        "isNullable": false,
         "datatype": "VARCHAR",
         "length": 512
       }

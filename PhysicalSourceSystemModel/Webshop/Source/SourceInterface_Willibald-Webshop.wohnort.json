@@ -12,7 +12,7 @@
       "attributeProperties": {
         "position": 1,
         "default": null,
-        "nullable": false,
+        "isNullable": false,
         "datatype": "CHAR",
         "length": 13
       }
@@ -24,7 +24,7 @@
       "attributeProperties": {
         "position": 2,
         "default": null,
-        "nullable": false,
+        "isNullable": false,
         "datatype": "DATE",
         "length": 0
       }
@@ -36,7 +36,7 @@
       "attributeProperties": {
         "position": 3,
         "default": null,
-        "nullable": true,
+        "isNullable": true,
         "datatype": "DATE",
         "length": 0
       }
@@ -48,7 +48,7 @@
       "attributeProperties": {
         "position": 4,
         "default": null,
-        "nullable": false,
+        "isNullable": false,
         "datatype": "VARCHAR",
         "length": 128
       }
@@ -60,7 +60,7 @@
       "attributeProperties": {
         "position": 5,
         "default": null,
-        "nullable": false,
+        "isNullable": false,
         "datatype": "VARCHAR",
         "length": 10
       }
@@ -72,7 +72,7 @@
       "attributeProperties": {
         "position": 6,
         "default": null,
-        "nullable": true,
+        "isNullable": true,
         "datatype": "VARCHAR",
         "length": 128
       }
@@ -84,7 +84,7 @@
       "attributeProperties": {
         "position": 7,
         "default": null,
-        "nullable": false,
+        "isNullable": false,
         "datatype": "VARCHAR",
         "length": 10
       }
@@ -96,7 +96,7 @@
       "attributeProperties": {
         "position": 8,
         "default": null,
-        "nullable": false,
+        "isNullable": false,
         "datatype": "VARCHAR",
         "length": 128
       }
@@ -108,7 +108,7 @@
       "attributeProperties": {
         "position": 9,
         "default": null,
-        "nullable": true,
+        "isNullable": true,
         "datatype": "VARCHAR",
         "length": 128
       }

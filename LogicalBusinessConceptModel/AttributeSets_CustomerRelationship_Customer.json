@@ -1,7 +1,7 @@
 [
     {
         "Name": "Default",
-        "BusinessObjectId": "CustomerRelationship.Customer",
+        "BusinessConceptId": "CustomerRelationship.Customer",
         "AttributeSetMappings": [
             {
                 "OrderNo": 1,
@@ -17,7 +17,7 @@
                 },
                 "SourceInterfaceId": "willibald.webshop.kunde",
                 "SourceAttributeName": "kundeid",
-                "BusinessObjectKeyPartId": "CustomerRelationship.Customer.Customer_ID"
+                "BusinessConceptKeyPartId": "CustomerRelationship.Customer.Customer_ID"
             },
             {
                 "OrderNo": 2,
@@ -33,7 +33,7 @@
                 },
                 "SourceInterfaceId": "willibald.webshop.kunde",
                 "SourceAttributeName": "vereinspartnerid",
-                "BusinessObjectKeyPartId": null
+                "BusinessConceptKeyPartId": null
             }
         ]
     }

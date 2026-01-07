@@ -15,7 +15,7 @@
       },
       "sourceInterfaceId": "willibald.webshop.kunde",
       "sourceAttributeName": "kundeid",
-      "businessConceptKeyPartId": "CustomerRelationship.Customer.Customer_ID",
+      "businessConceptKeyPartName": "Customer_ID",
       "attributeSetName": "Default"
     },
     {
@@ -32,7 +32,7 @@
       },
       "sourceInterfaceId": "willibald.webshop.kunde",
       "sourceAttributeName": "vereinspartnerid",
-      "businessConceptKeyPartId": null,
+      "businessConceptKeyPartName": null,
       "attributeSetName": "Default"
     }
   ]

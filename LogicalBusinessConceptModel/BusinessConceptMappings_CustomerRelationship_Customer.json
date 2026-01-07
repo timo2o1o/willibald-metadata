@@ -1,42 +1,39 @@
-[
+{
+  "businessConceptId": "CustomerRelationship.Customer",
+  "businessConceptMappings": [
     {
-        "businessConceptId": "CustomerRelationship.Customer",
-        "businessConceptMappings":
-        [
-            {
-                "orderNo": 1,
-                "historyType": "None",
-                "role": "BusinessKey",
-                "mappingProperties": {
-                    "position": 1,
-                    "default": null,
-                    "isNullable": false,
-                    "datatype": "int",
-                    "length": null,
-                    "precision": null
-                },
-                "sourceInterfaceId": "willibald.webshop.kunde",
-                "sourceAttributeName": "kundeid",
-                "businessConceptKeyPartId": "CustomerRelationship.Customer.Customer_ID",
-                "attributeSetName": "Default"
-            },
-            {
-                "orderNo": 2,
-                "historyType": "None",
-                "role": "BusinessKey",
-                "mappingProperties": {
-                    "position": 2,
-                    "default": null,
-                    "isNullable": false,
-                    "datatype": "int",
-                    "length": null,
-                    "precision": null
-                },
-                "sourceInterfaceId": "willibald.webshop.kunde",
-                "sourceAttributeName": "vereinspartnerid",
-                "businessConceptKeyPartId": null,
-                "attributeSetName": "Default"
-            }
-        ]
+      "orderNo": 1,
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 1,
+        "default": null,
+        "isNullable": false,
+        "datatype": "int",
+        "length": null,
+        "precision": null
+      },
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "kundeid",
+      "businessConceptKeyPartId": "CustomerRelationship.Customer.Customer_ID",
+      "attributeSetName": "Default"
+    },
+    {
+      "orderNo": 2,
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 2,
+        "default": null,
+        "isNullable": false,
+        "datatype": "int",
+        "length": null,
+        "precision": null
+      },
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "vereinspartnerid",
+      "businessConceptKeyPartId": null,
+      "attributeSetName": "Default"
     }
-]
+  ]
+}

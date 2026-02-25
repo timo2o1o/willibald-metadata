@@ -1,0 +1,77 @@
+{
+  "businessConceptId": "OrderProcessing.WebshopOrder",
+  "businessConceptMappings": [
+    {
+      "sourceInterfaceId": "willibald.webshop.bestellung",
+      "sourceAttributeName": "bestellungid",
+      "businessConceptKeyPartName": "WebshopOrder_ID",
+      "orderNo": 1,
+      "harmonizedName": "webshoporder_id",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 1,
+        "default": null,
+        "isNullable": false,
+        "datatype": "BIGINT",
+        "length": 0,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.bestellung",
+      "sourceAttributeName": "bestelldatum",
+      "businessConceptKeyPartName": null,
+      "orderNo": 4,
+      "harmonizedName": "order_date",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 4,
+        "default": null,
+        "isNullable": false,
+        "datatype": "DATE",
+        "length": 0,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.bestellung",
+      "sourceAttributeName": "wunschdatum",
+      "businessConceptKeyPartName": null,
+      "orderNo": 5,
+      "harmonizedName": "requested_date",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 5,
+        "default": null,
+        "isNullable": false,
+        "datatype": "DATE",
+        "length": 0,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.bestellung",
+      "sourceAttributeName": "rabatt",
+      "businessConceptKeyPartName": null,
+      "orderNo": 6,
+      "harmonizedName": "discount",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 6,
+        "default": null,
+        "isNullable": false,
+        "datatype": "NUMERIC",
+        "length": 5,
+        "precision": 2
+      }
+    }
+  ]
+}

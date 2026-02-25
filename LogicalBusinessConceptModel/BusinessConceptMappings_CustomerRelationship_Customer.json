@@ -2,7 +2,12 @@
   "businessConceptId": "CustomerRelationship.Customer",
   "businessConceptMappings": [
     {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "kundeid",
+      "businessConceptKeyPartName": "Customer_ID",
       "orderNo": 1,
+      "harmonizedName": "customer_id",
+      "attributeSetName": "Default",
       "historyType": "None",
       "role": "BusinessKey",
       "mappingProperties": {
@@ -12,28 +17,169 @@
         "datatype": "int",
         "length": null,
         "precision": null
-      },
-      "sourceInterfaceId": "willibald.webshop.kunde",
-      "sourceAttributeName": "kundeid",
-      "businessConceptKeyPartName": "Customer_ID",
-      "attributeSetName": "Default"
+      }
     },
     {
+      "sourceInterfaceId": "willibald.webshop.bestellung",
+      "sourceAttributeName": "kundeid",
+      "businessConceptKeyPartName": "Customer_ID",
       "orderNo": 2,
+      "harmonizedName": "customer_id",
+      "attributeSetName": "Default",
       "historyType": "None",
       "role": "BusinessKey",
       "mappingProperties": {
         "position": 2,
         "default": null,
         "isNullable": false,
-        "datatype": "int",
-        "length": null,
+        "datatype": "CHAR",
+        "length": 13,
         "precision": null
-      },
+      }
+    },
+    {
       "sourceInterfaceId": "willibald.webshop.kunde",
-      "sourceAttributeName": "vereinspartnerid",
+      "sourceAttributeName": "vorname",
       "businessConceptKeyPartName": null,
-      "attributeSetName": "Default"
+      "orderNo": 3,
+      "harmonizedName": "first_name",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 3,
+        "default": null,
+        "isNullable": false,
+        "datatype": "VARCHAR",
+        "length": 128,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "name",
+      "businessConceptKeyPartName": null,
+      "orderNo": 4,
+      "harmonizedName": "last_name",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 4,
+        "default": null,
+        "isNullable": false,
+        "datatype": "VARCHAR",
+        "length": 128,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "geschlecht",
+      "businessConceptKeyPartName": null,
+      "orderNo": 5,
+      "harmonizedName": "gender",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 5,
+        "default": null,
+        "isNullable": true,
+        "datatype": "CHAR",
+        "length": 1,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "geburtsdatum",
+      "businessConceptKeyPartName": null,
+      "orderNo": 6,
+      "harmonizedName": "birthday_date",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 6,
+        "default": null,
+        "isNullable": false,
+        "datatype": "DATE",
+        "length": 0,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "telefon",
+      "businessConceptKeyPartName": null,
+      "orderNo": 7,
+      "harmonizedName": "phone_number",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 7,
+        "default": null,
+        "isNullable": true,
+        "datatype": "VARCHAR",
+        "length": 20,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "mobil",
+      "businessConceptKeyPartName": null,
+      "orderNo": 8,
+      "harmonizedName": "mobile_number",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 8,
+        "default": null,
+        "isNullable": true,
+        "datatype": "VARCHAR",
+        "length": 20,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "email",
+      "businessConceptKeyPartName": null,
+      "orderNo": 9,
+      "harmonizedName": "email_address",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 9,
+        "default": null,
+        "isNullable": false,
+        "datatype": "VARCHAR",
+        "length": 128,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.lieferadresse",
+      "sourceAttributeName": "kundeid",
+      "businessConceptKeyPartName": "Customer_ID",
+      "orderNo": 2,
+      "harmonizedName": "customer_id",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 2,
+        "default": null,
+        "isNullable": false,
+        "datatype": "CHAR",
+        "length": 13,
+        "precision": null
+      }
     }
   ]
 }

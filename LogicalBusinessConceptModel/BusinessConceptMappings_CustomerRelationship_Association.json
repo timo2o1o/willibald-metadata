@@ -1,0 +1,23 @@
+{
+  "businessConceptId": "CustomerRelationship.Association",
+  "businessConceptMappings": [
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "vereinspartnerid",
+      "businessConceptKeyPartName": "Association_ID",
+      "orderNo": 2,
+      "harmonizedName": "association_id",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 2,
+        "default": null,
+        "isNullable": false,
+        "datatype": "int",
+        "length": null,
+        "precision": null
+      }
+    }
+  ]
+}

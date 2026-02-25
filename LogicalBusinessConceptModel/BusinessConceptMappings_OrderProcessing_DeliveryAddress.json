@@ -1,0 +1,77 @@
+{
+  "businessConceptId": "OrderProcessing.DeliveryAddress",
+  "businessConceptMappings": [
+    {
+      "sourceInterfaceId": "willibald.webshop.bestellung",
+      "sourceAttributeName": "allglieferadrid",
+      "businessConceptKeyPartName": "DeliveryAddress_ID",
+      "orderNo": 3,
+      "harmonizedName": "deliveryaddress_id",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 3,
+        "default": null,
+        "isNullable": false,
+        "datatype": "INT",
+        "length": 0,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.lieferadresse",
+      "sourceAttributeName": "lieferadrid",
+      "businessConceptKeyPartName": "DeliveryAddress_ID",
+      "orderNo": 1,
+      "harmonizedName": "deliveryaddress_id",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 1,
+        "default": null,
+        "isNullable": false,
+        "datatype": "INT",
+        "length": 0,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.lieferadresse",
+      "sourceAttributeName": "strasse",
+      "businessConceptKeyPartName": null,
+      "orderNo": 3,
+      "harmonizedName": "street",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 3,
+        "default": null,
+        "isNullable": false,
+        "datatype": "VARCHAR",
+        "length": 128,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.lieferadresse",
+      "sourceAttributeName": "hausnummer",
+      "businessConceptKeyPartName": null,
+      "orderNo": 4,
+      "harmonizedName": "house_number",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "Descriptive",
+      "mappingProperties": {
+        "position": 4,
+        "default": null,
+        "isNullable": false,
+        "datatype": "VARCHAR",
+        "length": 10,
+        "precision": null
+      }
+    }
+  ]
+}

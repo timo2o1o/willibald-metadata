@@ -1,23 +1,5 @@
 [
   {
-    "name": "Customer",
-    "businessDomainId": "CustomerRelationship",
-    "keyParts": [
-      {
-        "name": "Customer_ID",
-        "keyProperties": {
-          "position": 1,
-          "default": null,
-          "isNullable": false,
-          "datatype": "int",
-          "length": null,
-          "precision": null
-        }
-      }
-    ]
-  },
-  {
-    "name": "WebshopOrderItem",
     "businessDomainId": "OrderProcessing",
     "keyParts": [
       {
@@ -42,6 +24,114 @@
           "precision": null
         }
       }
-    ]
+    ],
+    "name": "WebshopOrderItem"
+  },
+  {
+    "businessDomainId": "OrderProcessing",
+    "keyParts": [
+      {
+        "name": "WebshopOrder_ID",
+        "keyProperties": {
+          "position": 1,
+          "default": null,
+          "isNullable": false,
+          "datatype": "int",
+          "length": null,
+          "precision": null
+        }
+      }
+    ],
+    "name": "WebshopOrder"
+  },
+  {
+    "businessDomainId": "OrderProcessing",
+    "keyParts": [
+      {
+        "name": "DeliveryAddress_ID",
+        "keyProperties": {
+          "position": 1,
+          "default": null,
+          "isNullable": false,
+          "datatype": "int",
+          "length": null,
+          "precision": null
+        }
+      }
+    ],
+    "name": "DeliveryAddress"
+  },
+  {
+    "businessDomainId": "CustomerRelationship",
+    "keyParts": [
+      {
+        "name": "Customer_ID",
+        "keyProperties": {
+          "position": 1,
+          "default": null,
+          "isNullable": false,
+          "datatype": "int",
+          "length": null,
+          "precision": null
+        }
+      }
+    ],
+    "name": "Customer"
+  },
+  {
+    "businessDomainId": "CustomerRelationship",
+    "keyParts": [
+      {
+        "name": "Association_ID",
+        "keyProperties": {
+          "position": 1,
+          "default": null,
+          "isNullable": false,
+          "datatype": "int",
+          "length": null,
+          "precision": null
+        }
+      }
+    ],
+    "name": "Association"
+  },
+  {
+    "businessDomainId": "CustomerRelationship",
+    "keyParts": [
+      {
+        "name": "CreditCard_Number",
+        "keyProperties": {
+          "position": 1,
+          "default": null,
+          "isNullable": false,
+          "datatype": "int",
+          "length": null,
+          "precision": null
+        }
+      },
+      {
+        "name": "ValidTo",
+        "keyProperties": {
+          "position": 2,
+          "default": null,
+          "isNullable": false,
+          "datatype": "CHAR",
+          "length": 5,
+          "precision": null
+        }
+      },
+      {
+        "name": "Issuer",
+        "keyProperties": {
+          "position": 3,
+          "default": null,
+          "isNullable": false,
+          "datatype": "VARCHAR",
+          "length": 128,
+          "precision": null
+        }
+      }
+    ],
+    "name": "CreditCard"
   }
 ]

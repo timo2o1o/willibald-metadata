@@ -1,0 +1,59 @@
+{
+  "businessConceptId": "CustomerRelationship.CreditCard",
+  "businessConceptMappings": [
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "kreditkarte",
+      "businessConceptKeyPartName": "CreditCard_Number",
+      "orderNo": 10,
+      "harmonizedName": "creditcard_number",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 10,
+        "default": null,
+        "isNullable": false,
+        "datatype": "VARCHAR",
+        "length": 30,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "gueltigbis",
+      "businessConceptKeyPartName": "ValidTo",
+      "orderNo": 11,
+      "harmonizedName": "valid_to",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 11,
+        "default": null,
+        "isNullable": false,
+        "datatype": "CHAR",
+        "length": 5,
+        "precision": null
+      }
+    },
+    {
+      "sourceInterfaceId": "willibald.webshop.kunde",
+      "sourceAttributeName": "kkfirma",
+      "businessConceptKeyPartName": "Issuer",
+      "orderNo": 12,
+      "harmonizedName": "issuer",
+      "attributeSetName": "Default",
+      "historyType": "None",
+      "role": "BusinessKey",
+      "mappingProperties": {
+        "position": 12,
+        "default": null,
+        "isNullable": false,
+        "datatype": "VARCHAR",
+        "length": 128,
+        "precision": null
+      }
+    }
+  ]
+}

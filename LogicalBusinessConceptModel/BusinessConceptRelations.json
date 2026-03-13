@@ -1,0 +1,16 @@
+[
+    {
+        "businessDomainId": "OrderProcessing",
+        "name": "WebshopOrder_WebshopOrderItem",
+        "relatedConcepts": [
+            {
+                "relatedBusinessConceptId": "OrderProcessing.WebshopOrderItem",
+                "isLeadingKey": true
+            },
+            {
+                "relatedBusinessConceptId": "OrderProcessing.WebshopOrder",
+                "isLeadingKey": false
+            }
+        ]
+    }
+]

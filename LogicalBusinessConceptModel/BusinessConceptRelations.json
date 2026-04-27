@@ -1,16 +1,30 @@
 [
-    {
-        "businessDomainId": "OrderProcessing",
-        "name": "WebshopOrder_WebshopOrderItem",
-        "relatedConcepts": [
-            {
-                "relatedBusinessConceptId": "OrderProcessing.WebshopOrderItem",
-                "isLeadingKey": true
-            },
-            {
-                "relatedBusinessConceptId": "OrderProcessing.WebshopOrder",
-                "isLeadingKey": false
-            }
-        ]
-    }
+  {
+    "relatedConcepts": [
+      {
+        "relatedBusinessConceptId": "OrderProcessing.WebshopOrderItem",
+        "isLeadingKey": true
+      },
+      {
+        "relatedBusinessConceptId": "OrderProcessing.WebshopOrder",
+        "isLeadingKey": false
+      }
+    ],
+    "businessDomainId": "OrderProcessing",
+    "name": "WebshopOrder_WebshopOrderItem"
+  },
+  {
+    "relatedConcepts": [
+      {
+        "relatedBusinessConceptId": "OrderProcessing.DeliveryAddress",
+        "isLeadingKey": true
+      },
+      {
+        "relatedBusinessConceptId": "CustomerRelationship.Customer",
+        "isLeadingKey": false
+      }
+    ],
+    "businessDomainId": "OrderProcessing",
+    "name": "Customer_DeliveryAddress"
+  }
 ]
